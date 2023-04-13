@@ -5,6 +5,6 @@ const octokit = new Octokit({
 
 export default async function retrieveRepos(){
 
-return octokit.rest.repos.listForUser({username: 'bhogandev'});
+return octokit.rest.repos.listForUser({username: 'tythebowman'});
 }
 

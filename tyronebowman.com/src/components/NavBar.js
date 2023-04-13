@@ -12,7 +12,7 @@ const NavBar = (props) => {
         <Navbar className='nav' expand="lg" style={{marginRight: 0}} fixed="top">
             <Navbar.Brand style={{paddingLeft: '0%', textDecoration: 'none'}}>
                 <LinkContainer to="/">
-                    <Nav.Link style={{color: 'black'}}>BRANDON HOGAN</Nav.Link>
+                    <Nav.Link style={{color: 'black'}}>Tyrone Bowman</Nav.Link>
                 </LinkContainer>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='responsive-navbar-nav' />
@@ -39,8 +39,8 @@ const NavBar = (props) => {
                         </Link>
                     </Nav.Link>
                     <Nav.Link href={resume} className='nav-item' target="blank">RESUME</Nav.Link>
-                    <Nav.Link href="https://github.com/bhogandev" className='nav-item' target="blank">GITHUB</Nav.Link>
-                    <Nav.Link href="https://www.linkedin.com/in/bhogandev" className='nav-item' target="blank">LINKEDIN</Nav.Link>
+                    <Nav.Link href="https://github.com/tythebowman" className='nav-item' target="blank">GITHUB</Nav.Link>
+                    <Nav.Link href="https://www.linkedin.com/in/tyrone-bowman-165808b8/" className='nav-item' target="blank">LINKEDIN</Nav.Link>
             </Nav>
             </Navbar.Collapse>
     </Navbar>

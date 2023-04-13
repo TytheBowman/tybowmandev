@@ -7,11 +7,12 @@ import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
 import Header from './Header';
+import {Outlet} from 'react-router-dom';
 
 const Main = (props) => {
 
     useEffect(() => {
-        document.title = "Brandon Hogan | BrandNewCode  | Full Stack Applications Developer";
+        document.title = "Tyrone Bowman | BrandNewCode  | Full Stack Applications Developer";
     });
 
     return(
@@ -28,6 +29,7 @@ const Main = (props) => {
             <div id='contact' className='sec'>
                 <Contact />
             </div>
+            <Outlet />
         </div>
     )
 }

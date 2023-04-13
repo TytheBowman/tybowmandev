@@ -10,7 +10,7 @@ html {
 body {
   line-height: 1.5;
   font-family: "Lato", sans-serif;
-  background-color: #D9E1E6 !important;
+  background-color: #93a4ae !important;
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 .app-wrapper {
   margin: 0;
   padding: 0;
-  background-color: aqua;
+  background-color: rgb(39, 29, 87);
   width: 100vw;
 }
 
@@ -37,7 +37,7 @@ a {
 }
 
 .bttn:hover {
-  background-color: coral;
+  background-color: rgb(230, 14, 14);
   transition: background-color 0.5s ease 0s;
 }
 
@@ -83,7 +83,7 @@ a {
   border-radius: 50%;
   height: 200px;
   width: 200px;
-  background-image: url("/../../assets/portfolioavatar.JPEG");
+  background-image: url("../../assets/portfolioavatar.JPEG");
   background-position: center;
   background-size: cover;
 }

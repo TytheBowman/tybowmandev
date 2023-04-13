@@ -1,25 +1,21 @@
 import React from 'react';
-//import {Route, Switch} from 'react-router'
 import Main from '../pages/Main';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import '../dist/css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NotFound from '../pages/404';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Link, Routes, Navigate} from 'react-router-dom';
+
 
 function App() {
   return (
     <div>
       <NavBar />
-      <Router>
-        <Route path="/" exact component={Main} />
-        <Route component={NotFound} />
-      </Router>
+     <Main />
       <Footer />
     </div>
   );
 }
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 export default App;
