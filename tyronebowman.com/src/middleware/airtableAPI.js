@@ -3,7 +3,7 @@ Airtable.configure({
     endpointUrl: 'https://api.airtable.com',
     apiKey: 'keyrEspPFXkJiLiX2'
 });
-var base = Airtable.base('appQ2w6a5s0PFAmge');
+var base = Airtable.base('keyQvKPyy5Ogl7L5a');
 
 const table = base('Contact Form');
 
