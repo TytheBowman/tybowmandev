@@ -2,12 +2,12 @@ import React from 'react';
 import { ThemeConsumer } from 'react-bootstrap/esm/ThemeProvider';
 import {Container, Row, Col} from 'react-bootstrap';
 import { useEffect } from 'react';
-import Project from '../components/Project';
 import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
 import Header from './Header';
 import {Outlet} from 'react-router-dom';
+
 
 const Main = (props) => {
 
@@ -17,11 +17,11 @@ const Main = (props) => {
 
     return(
         <div>
-            <div id='home' className="main">
+            <div id='home' className="main" style={{ display: 'flex', justifyContent: 'center' }}>
             <Header />
             </div>
-            <div id='projects' className='sec'>
-                <Projects />
+            <div id='projects' className='sec' style={{ display: 'flex', justifyContent: 'center' }}>
+            <Projects />
             </div>
             <div id='about' className='sec'>
                 <About />

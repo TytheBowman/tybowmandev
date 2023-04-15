@@ -53,7 +53,7 @@ const Projects = (props) => {
                 <Container style={{textAlign: 'center'}} fluid>
                     {/* This is where the header profile image will go */}
                     <h1 className="h-title">Projects</h1>
-                    <h2 className="lead">Here you will find some of the personal and clients projects that I created with each project containing its own case study</h2>
+                    <h2 className="lead">Here you will find some of the personal and school related projects that I created.</h2>
                     <div style={{marginTop: '3%'}}>
                         <Row>
                         {gitProjects}

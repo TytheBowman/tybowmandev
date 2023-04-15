@@ -16,21 +16,22 @@ const Header = (props) => {
                 <Container>
                     <Row style={{textAlign: 'center'}}>
                         <Col>
-                            <h2 className="h-title">Hi! My name is</h2>
+                            <h2 className="h-title">Hey! My name is</h2>
                             <h1 className="h-lead">
                                 Tyrone
                                 <span style={{color: 'blue'}}> Bowman</span>
                             </h1>
-                            <h3 className='h-body'>A full stack applications developer who specializes in building websites and applications.</h3>
+                            <h3 className='h-body'>A full stack application developer who specializes in building websites and applications.</h3>
                         </Col>
                     </Row>
-                    <Row style={{justifyContent: 'center'}}>
+                    <Row style={{ display: 'flex', justifyContent: 'center' }}>
                     <Link to="projects" spy={true} smooth={true} duration={50}>
-                        <button className='bttn'>
-                                View Projects
-                        </button>
-                    </Link>
-                    </Row>
+                    <button className='bttn' style={{ width: '100%' }}>
+                             View Projects
+                     </button>
+            </Link>
+        </Row>
+
                 </Container>
             </div>
             </div>

@@ -9,7 +9,7 @@ const Footer = (props) => {
             <Row style={{paddingTop: '6%'}}>
                 <Col md="4">
                     <Row className='f-row f-row-header'>
-                        <h2>BRANDON HOGAN</h2>
+                        <h2>Tyrone Bowman</h2>
                     </Row>
                     <Row className='f-row'>
                         <p>A full stack Web &amp; Applications developer, focused on building or improving your applications.</p>
@@ -23,13 +23,10 @@ const Footer = (props) => {
                 </Row>
                 <Row className='f-row'>
                 <div className="f-links">
-                        <a href="https://twitter.com/BrandonTheDev" target="_blank" className="f-ilink">
-                            <i class="fa fa-xl fa-twitter-square"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/brandon-hogan-9994b0153/" target="_blank" className="f-ilink">
+                        <a href="https://www.linkedin.com/in/tyrone-bowman-165808b8/" target="_blank" className="f-ilink">
                             <i class="fa fa-xl fa-linkedin-square"></i>
                         </a>
-                        <a href="https://github.com/bhogandev" target="_blank" className="f-ilink">
+                        <a href="https://github.com/tythebowman" target="_blank" className="f-ilink">
                             <i className="fa fa-xl fa-github-square"></i>
                         </a>
                     </div>
@@ -37,11 +34,11 @@ const Footer = (props) => {
             </Col>
             </Row>
 
-            <hr style={{backgroundColor: 'gray', marginTop: '5%'}}/>
+            <hr style={{backgroundColor: 'Camel', marginTop: '5%'}}/>
             <Row className='justify-content-center'>
             <p>
-                &copy; Copyright 2022. Made by 
-                     <b> Brandon Hogan</b>
+                &copy; Copyright 2023. Made by 
+                     <b> Tyrone Bowman</b>
             </p>
             </Row>
             </Container>

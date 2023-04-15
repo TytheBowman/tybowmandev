@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 export default function About(props) {
 
     useEffect(() => {
-        document.title = "Brandon Hogan | About";
+        document.title = "Tyrone Bowman | About";
     });
 
 
@@ -16,29 +16,26 @@ export default function About(props) {
                             <h2 className='h-title'>About Me</h2>
                         </Row>
                         <Row className='justify-content-center'>
-                            <h3 className='lead'>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</h3>
+                            <h3 className='lead'>Below, you can find additional details about myself, my occupation, and my current proficiency primarily related to coding and technology.</h3>
                         </Row>
                         <Row className='sub-row'>
                             <Col className='sub-col'>
                                 <h3 className='sub-col-header'>Get to know me!</h3>
-                                <p>I'm a Full Stack Developer who enjoys building the Web & Mobile Applications. Check out some of my work in the Projects section.</p>
-                                <p>In order to benefit other members of the developer community, I also enjoy contributing content that is linked to the knowledge I have acquired over the years in web development. Please feel free to connect with me or follow me on Linkedin, where I share relevant Web Development and Programming stuff.</p>
-                                <p>I'm interested in employment possibilities where I can grow, learn, and contribute. Please get in touch with me if you have a suitable opportunity that matches my qualifications and expertise.</p>
+                                <p>As a Full Stack Developer, I take pleasure in constructing Web and Mobile Applications. Take a look at some of my creations showcased in the Projects segment.</p>
+                                <p>I also take delight in sharing my knowledge and expertise in web development with other members of the developer community. Please don't hesitate to connect with me or follow me on LinkedIn, where I regularly share valuable insights related to Web Development and Programming.</p>
+                                <p>I am interested in exploring job opportunities that offer growth, learning, and opportunities for contribution. If you have a suitable opening that aligns with my qualifications and expertise, please don't hesitate to get in touch with me.</p>
                             </Col>
                             <Col className='sub-col'>
                                 <h3 className='sub-col-header'>Skills</h3>
                                 <Button className='skill-badge' variant='secondary' disabled>HTML</Button>
                                 <Button className='skill-badge' variant='secondary' disabled>CSS</Button>
                                 <Button className='skill-badge' variant='secondary' disabled>Javascript</Button>
-                                <Button className='skill-badge' variant='secondary' disabled>C#</Button>
-                                <Button className='skill-badge' variant='secondary' disabled>Python</Button>
                                 <br />
                                 <Button className='skill-badge' variant='secondary' disabled>React JS</Button>
                                 <Button className='skill-badge' variant='secondary' disabled>React Native</Button>
                                 <Button className='skill-badge' variant='secondary' disabled>Git</Button>
                                 <Button className='skill-badge' variant='secondary' disabled>SQL</Button>
                                 <Button className='skill-badge' variant='secondary' disabled>Responsive Design</Button>
-                                <Button className='skill-badge' variant='secondary' disabled>SASS</Button>
                             </Col>
                         </Row>
                 </Container>
