@@ -3,7 +3,7 @@ import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 import * as Scroll from 'react-scroll';
 import {Link} from 'react-scroll';
-import resume from '../assets/BrandonHogan_Resume.pdf';
+import resume from '../assets/Tyrone-Bowman-Resume.pdf';
 import '../dist/css/main.css'
 
 const NavBar = (props) => {
