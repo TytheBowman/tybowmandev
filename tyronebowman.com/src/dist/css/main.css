@@ -140,9 +140,13 @@ a {
 }
 
 .project-card {
-  justify-content: center;
   border: 4px solid #000;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  
 
 .sub-col {
   margin-top: 10%;
